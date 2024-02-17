@@ -27,7 +27,7 @@ def calc_palm_moment(data):
     return cx, cy
 
 num_joints = 21
-num_features = num_joints * 2 # 33 joints * 2 dimensions
+num_features = num_joints * 2 # 21 joints * 2 dimensions
 data_store = np.empty((num_joints, 2), float) 
 
 # X:input vectors, y: targets
